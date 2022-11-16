@@ -2,7 +2,7 @@ import math
 
 import cv2
 from cvzone.PoseModule import PoseDetector
-from cvzone.posemodule1 import PoseDetector1
+from posemodule1 import PoseDetector1
 from threading import Thread
 from math import sqrt
 video = cv2.VideoCapture(0)
