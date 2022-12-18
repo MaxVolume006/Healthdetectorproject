@@ -50,6 +50,7 @@ class StartOfWork(QMainWindow):
         label2.setFont(QFont("Times", 10))
         label2.setStyleSheet('''color: rgb(255, 255, 255);''')
         label2.adjustSize()
+
         edit2 = QLineEdit(self)
         edit2.resize(100, 50)
         edit2.move(425, 185)

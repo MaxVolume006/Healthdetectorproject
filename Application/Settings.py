@@ -25,13 +25,13 @@ class Settings(QMainWindow):
         title.adjustSize()
 
         label1 = QLabel("Всплывающие уведомления:",self)
-        label1.resize(200,50)
+        label1.resize(230,50)
         label1.move(25,225)
         label1.setFont(QFont("Times", 10))
         label1.setStyleSheet('''color: rgb(255, 255, 255);''')
         switch1 = QCheckBox(self)
         switch1.resize(100, 50)
-        switch1.move(250, 225)
+        switch1.move(275, 225)
         switch1.setStyleSheet('''color: rgb(255, 255, 255);''')
         switch1.setStyleSheet('''
             QCheckBox::indicator:unchecked {
@@ -43,13 +43,13 @@ class Settings(QMainWindow):
         ''')
 
         label2 = QLabel("Напоминания о разминке:", self)
-        label2.resize(200, 50)
+        label2.resize(210, 50)
         label2.move(25, 300)
         label2.setFont(QFont("Times", 10))
         label2.setStyleSheet('''color: rgb(255, 255, 255);''')
         switch2 = QCheckBox(self)
         switch2.resize(100, 50)
-        switch2.move(250, 300)
+        switch2.move(275, 300)
         label2.setStyleSheet('''color: rgb(255, 255, 255);''')
         switch2.setStyleSheet('''
                     QCheckBox::indicator:unchecked {
@@ -67,7 +67,7 @@ class Settings(QMainWindow):
         label3.setStyleSheet('''color: rgb(255, 255, 255);''')
         switch3 = QCheckBox(self)
         switch3.resize(100, 50)
-        switch3.move(250, 375)
+        switch3.move(275, 375)
         switch3.setStyleSheet('''color: rgb(255, 255, 255);''')
         switch3.setStyleSheet('''
                             QCheckBox::indicator:unchecked {
@@ -85,7 +85,7 @@ class Settings(QMainWindow):
         label4.setFont(QFont("Times", 10))
         switch4 = QCheckBox(self)
         switch4.resize(100, 50)
-        switch4.move(250, 450)
+        switch4.move(275, 450)
         switch4.setStyleSheet('''color: rgb(255, 255, 255);''')
         switch4.setStyleSheet('''
                                     QCheckBox::indicator:unchecked {
@@ -151,15 +151,15 @@ class Settings(QMainWindow):
                                                         ''')
 
         buttonback = QPushButton("Отмена",self)
-        buttonback.resize(100,50)
-        buttonback.move(440,475)
+        buttonback.resize(125,50)
+        buttonback.move(415,475)
         buttonback.setFont(QFont("Times", 10))
         buttonback.setStyleSheet("QPushButton {background-color: rgb(51,122,183); color: White; border-radius: 4px;}"
                                 "QPushButton:pressed {background-color:rgb(31,101,163) ; }")
 
         buttonto = QPushButton("Подтвердить", self)
-        buttonto.resize(100, 50)
-        buttonto.move(640, 475)
+        buttonto.resize(125, 50)
+        buttonto.move(615, 475)
         buttonto.setFont(QFont("Times", 10))
         buttonto.setStyleSheet("QPushButton {background-color: rgb(51,122,183); color: White; border-radius: 4px;}"
                                  "QPushButton:pressed {background-color:rgb(31,101,163) ; }")
